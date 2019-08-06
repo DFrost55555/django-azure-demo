@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'django_azure_demo.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'sql_server.pyodbc',
+        'NAME': 'gd_adm_db01',
+        'USER': 'sqladmin@gd-adm-mssql01',
+        'PASSWORD': 'S3cur17y!',
+        'HOST': 'gd-adm-mssql01.database.windows.net',
+        'PORT':''
     }
 }
 
