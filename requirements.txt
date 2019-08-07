@@ -1,5 +1,6 @@
 Django==2.1.10
+pytz==2019.2
+pyodbc==4.0.26
 django-mssql==1.8
 django-pyodbc-azure==2.1.0.0
-pyodbc==4.0.26
-pytz==2019.2
+
