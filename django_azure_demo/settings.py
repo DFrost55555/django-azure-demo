@@ -81,9 +81,9 @@ DATABASES = {
         'USER': 'sqladmin@gd-adm-mssql01',
         'PASSWORD': 'S3cur17y!',
         'HOST': 'gd-adm-mssql01.database.windows.net',
-        'PORT':''
+        'PORT':'1433'
         'OPTIONS': {
-            'driver': 'ODBC Driver 17 for SQL Server',
+            'driver': 'ODBC Driver 13 for SQL Server',
                 },
     },
 }
